@@ -1,0 +1,25 @@
+
+.layout-wrapper{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 3px grey;
+    box-sizing: border-box;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+header, footer{
+    background-color: indianred;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+side{
+    margin: 20px;
+    background-color: teal;
+    color: whitesmoke;
+}
